@@ -44,25 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper.cs" />
-    <Compile Include="Input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="A-large-practice.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="App.config" />
     <None Include="large.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="large.out" />
     <None Include="small.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="sample.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="small.out" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

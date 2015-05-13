@@ -6,8 +6,8 @@ namespace MushroomMonster
 {
 	public struct Input
 	{
-		public int NumberOfPlates { get; }
-		public List<int> Plates { get; }
+		public int NumberOfPlates { get; private set; }
+		public List<int> Plates { get; private set; }
 		
 		private Input(int numberOfPlates, List<int> plates)
 		{

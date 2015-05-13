@@ -6,9 +6,9 @@ namespace Haircut
 {
 	public struct Input
 	{
-		public int BarbersCount { get; }
-		public int Position { get; }
-		public List<int> BarbersTime { get; }
+		public int BarbersCount { get; private set; }
+		public int Position { get; private set; }
+		public List<int> BarbersTime { get; private set; }
 
 		private Input(int barbersCount, int position, List<int> barbersTime)
 		{
